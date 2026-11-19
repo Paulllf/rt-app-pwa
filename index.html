@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RT-App</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="RT-App">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f4f1ea">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="home" aria-label="Start">RT</a>
+  <input id="suche" type="search" placeholder="Suchen: Hurwitz, Endwertsatz, BCD …" autocomplete="off" autocorrect="off" spellcheck="false">
+</header>
+<main id="view"></main>
+<footer class="foot"><span id="status">…</span></footer>
+<div id="update" class="update" hidden>Neue Version geladen. <button id="update-btn">Neu starten</button></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
